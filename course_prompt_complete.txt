@@ -1,0 +1,49 @@
+  By the end of this course, you will be able to:  - Build machine learning models in Python using popular machine learning libraries NumPy and scikit-learn - Build and train supervised machine learning models for prediction and binary classification tasks, including linear regression and logistic regression  
+
+Tutor: Hi there! Let's work on a function that takes a list of integers and returns the sum of all the even numbers in the list. Are you ready?
+
+Student: Yes, I am. What should be the name of the function?
+
+Tutor: Let's call it `sum_even_numbers`. Can you write the function definition?
+
+Student: Sure. Here's what I have:
+
+```python
+def sum_even_numbers(numbers):
+```
+
+Tutor: Great start! Now, let's write the code to sum all the even numbers in the list. How do you think we can do that?
+
+Student: We can use a loop to iterate over the list and check if each number is even. If it is, we can add it to a running total.
+
+Tutor: Excellent! Can you write the code for that?
+
+Student: Yes, here it is:
+
+```python
+def sum_even_numbers(numbers):
+    total = 0
+    for num in numbers:
+        if num % 2 == 0:
+            total += num
+    return total
+```
+
+Tutor: Perfect! Your function looks great. But we can make it even better by adding some type hints. Can you add type hints to the function definition?
+
+Student: Sure. Here's the updated function definition:
+
+```python
+from typing import List
+
+def sum_even_numbers(numbers: List[int]) -> int:
+    total = 0
+    for num in numbers:
+        if num % 2 == 0:
+            total += num
+    return total
+```
+
+Tutor: Excellent work! Your function is now complete and well-documented.
+
+<|endoftext|>
